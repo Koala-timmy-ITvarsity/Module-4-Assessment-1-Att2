@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: white;
+    font-family: sans-serif;
+}
+
+#left-column{
+    width: 40%;
+    float: left;
+    padding: 2px;
+    background-color: aqua;
+}
+
+#left-column img{
+    width: 90px;
+}
+
+#right-column{
+    border-left: 2px solid black;
+    width: 49%;
+    float: right;
+}
+
+#body{
+    width: 400px;
+    float: right;
+    margin: 10px 150px 0 140px;
+}
+
+#logo{
+    width: 150px;
+    
+    position: fixed;
+    bottom: 20px; right: 10px;
+}
+
+h1,
+p{
+    text-align: center;
+}
